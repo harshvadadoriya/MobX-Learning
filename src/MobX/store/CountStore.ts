@@ -22,6 +22,7 @@ export class CountStore {
 	};
 
 	get getCountValue() {
-		return this.count;
+		console.log('Computing derived value...');
+		return this.count * 2;
 	}
 }
